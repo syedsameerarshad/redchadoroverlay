@@ -1,0 +1,10 @@
+{
+  "overlays": [
+    "overlay-1.png",
+    "overlay-2.png",
+    "overlay-3.png",
+    "overlay-4.png",
+    "overlay-5.png",
+    "overlay-6.png"
+  ]
+}
