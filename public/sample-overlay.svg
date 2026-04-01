@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080">
+  <defs>
+    <style type="text/css">
+      .masthead { font-family: 'Georgia', serif; font-size: 96px; font-weight: bold; fill: white; letter-spacing: 0.15em; }
+      .headline { font-family: 'Georgia', serif; font-size: 42px; fill: white; font-style: italic; }
+      .tagline { font-family: 'Helvetica Neue', Helvetica, sans-serif; font-size: 22px; fill: white; letter-spacing: 0.08em; text-transform: uppercase; }
+      .barcode-text { font-family: 'Courier New', monospace; font-size: 12px; fill: white; }
+    </style>
+  </defs>
+
+  <!-- Top gradient bar -->
+  <rect x="0" y="0" width="1920" height="180" fill="rgba(0,0,0,0.55)" />
+
+  <!-- Bottom gradient bar -->
+  <rect x="0" y="820" width="1920" height="260" fill="rgba(0,0,0,0.55)" />
+
+  <!-- Thin accent line top -->
+  <rect x="60" y="160" width="1800" height="2" fill="rgba(255,255,255,0.3)" />
+
+  <!-- Masthead -->
+  <text x="960" y="120" text-anchor="middle" class="masthead">THE EXHIBIT</text>
+
+  <!-- Issue info -->
+  <text x="960" y="155" text-anchor="middle" class="tagline" style="font-size: 14px; fill: rgba(255,255,255,0.6);">SPRING 2026  ·  COLLECTOR'S EDITION  ·  $12.99</text>
+
+  <!-- Headline -->
+  <text x="100" y="900" class="headline">The Face of the Future</text>
+
+  <!-- Taglines -->
+  <text x="100" y="945" class="tagline">An exclusive look inside the exhibit</text>
+  <text x="100" y="975" class="tagline" style="fill: rgba(255,255,255,0.5); font-size: 16px;">Photography · Art · Culture · Innovation</text>
+
+  <!-- Right side cover lines -->
+  <text x="1820" y="880" text-anchor="end" class="tagline" style="font-size: 18px;">INSIDE</text>
+  <text x="1820" y="910" text-anchor="end" class="tagline" style="font-size: 14px; fill: rgba(255,255,255,0.6);">10 Artists Redefining the Medium</text>
+  <text x="1820" y="940" text-anchor="end" class="tagline" style="font-size: 14px; fill: rgba(255,255,255,0.6);">Behind the Scenes</text>
+  <text x="1820" y="970" text-anchor="end" class="tagline" style="font-size: 14px; fill: rgba(255,255,255,0.6);">The Making of the Collection</text>
+
+  <!-- Barcode area -->
+  <rect x="1720" y="1020" width="140" height="40" fill="rgba(255,255,255,0.9)" rx="2" />
+  <text x="1790" y="1048" text-anchor="middle" class="barcode-text" style="fill: #000;">0 74470 81045 7</text>
+
+  <!-- Border frame -->
+  <rect x="30" y="30" width="1860" height="1020" fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="1" />
+</svg>
