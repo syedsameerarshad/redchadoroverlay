@@ -220,6 +220,9 @@ function App() {
 
   return (
     <div style={styles.app}>
+      {/* Video element always in DOM so camera can attach during loading */}
+      <video ref={videoRef} playsInline muted style={styles.hiddenVideo} />
+
       {screen === 'loading' && (
         <div style={styles.centered}>
           <div style={styles.spinner} />
@@ -229,7 +232,6 @@ function App() {
 
       {screen === 'booth' && (
         <div style={styles.boothContainer}>
-          <video ref={videoRef} playsInline muted style={styles.hiddenVideo} />
 
           {cameraError ? (
             <div style={styles.centered}>
